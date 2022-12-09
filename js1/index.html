@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <section class="main">
+    <div class="pop" id="p1">
+        <div class="innerone" onclick="sav()">
+            <span>TITLE</span>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quas minima sint ullam nulla officiis in laboriosam quae, iusto laborum fugiat vero temporibus quia repellendus amet quo placeat? Atque, beatae!</P>
+            <button id="bt" onclick="cancel()">cancel</button>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="logo">LoGo</div>
+        <div class="con">
+            <span>HOME</span>
+            <span>ABOUT</span>
+            <span>CONTACT US</span>
+        </div>
+    </div>
+    <div class="home">
+        <div class="content">
+            <span>TITLE</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eveniet, quia quos necessitatibus incidunt optio harum debitis quidem non!</p>
+            <button id="btn" onclick="show()">show</button>
+        </div>
+    </div>
+   </section> 
+   <section class="main1">
+    <div class="tech" id="tech">
+        <div class="inner" onclick="remov(1)">
+            <img src="https://images.unsplash.com/photo-1664575197229-3bbebc281874?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+    </div>
+    <div class="tech1" id="tech1">
+        <div class="inner" onclick="remov(1)">
+            <img src="https://images.unsplash.com/photo-1669723008519-3b5043b5b826?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+    </div>
+    <div class="tech2" id="tech2">
+        <div class="inner" onclick="remov(1)">
+            <img src="https://plus.unsplash.com/premium_photo-1661514159916-778ceceb1577?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card1">
+            <img src="https://images.unsplash.com/photo-1664575197229-3bbebc281874?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            <button id="btn1" onclick="btn(1)">button</button>
+        </div>
+        <div class="card2">
+            <img src="https://images.unsplash.com/photo-1669723008519-3b5043b5b826?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            <button id="btn2" onclick="btn(2)">button</button>
+        </div>
+        <div class="card3">
+            <img src="https://plus.unsplash.com/premium_photo-1661514159916-778ceceb1577?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            <button id="btn3" onclick="btn(3)">button</button>
+        </div>
+    </div>
+   </section>
+   <section class="main3">
+    <div class="top">
+        <div class="one">
+            <h1>HOME</h1>
+            <p>about</p>
+            <p>contact</p>
+            <p>testmonials</p>
+            <p>
+                gallary
+            </p>
+        </div>
+        <div class="two">
+            <h1>CONTACT US</h1>
+            <p>7660909909</p>
+            <p>749089090</p>
+            <p>7664378978</p>
+            <p>88238094880</p>
+        </div>
+        <div class="three">
+            <h1>SOCIAL MEDIA</h1>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+    </div>
+    <div class="bottom"></div>
+   </section>
+</body>
+<script src="script.js"></script>
+</html>
